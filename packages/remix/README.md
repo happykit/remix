@@ -2,11 +2,13 @@
 
 Feature Flags for your Remix applications
 
-## Get started
+## Quickstart
+
+### Install package
 
 `npm install --save @happykit/remix`
 
-### Example
+### Setup
 
 1. Create a free account on [happykit.dev](https://happykit.dev)
 2. Create a project
