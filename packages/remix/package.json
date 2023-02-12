@@ -1,0 +1,32 @@
+{
+  "name": "@happykit/remix",
+  "version": "0.1.0",
+  "description": "Feature Flags for your Remix applications",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "feature flags",
+    "remix",
+    "happykit",
+    "feature toggles",
+    "ab testing"
+  ],
+  "author": "Dominik Ferber <dominik.ferber+npm@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cookie": "^0.5.0",
+    "nanoid": "3.3.4"
+  },
+  "devDependencies": {
+    "@types/cookie": "^0.5.1",
+    "@types/node": "^18.13.0",
+    "tsup": "^6.6.2",
+    "typescript": "^4.9.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

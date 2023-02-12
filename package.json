@@ -1,0 +1,14 @@
+{
+  "name": "sample-monorepo",
+  "private": true,
+  "devDependencies": {
+    "turbo": "1.7.4"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "test:ci": "turbo run test:ci"
+  }
+}
