@@ -65,6 +65,9 @@ Check out the pages in `apps/example/app` like
 - `with-visitor-key` which shows how to target anonymous users
 - `with-everything` which shows how to combine it all together
 
+## API Documentation
+
+Check out the full documentation on [@happykit/remix](https://github.com/happykit/remix/tree/main/packages/remix).
 
 ## Disclaimer
 
