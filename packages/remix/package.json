@@ -1,6 +1,6 @@
 {
   "name": "@happykit/remix",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Feature Flags for your Remix applications",
   "main": "./dist/index.js",
   "scripts": {
