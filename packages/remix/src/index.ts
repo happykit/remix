@@ -55,6 +55,13 @@ export async function getFlags<F extends Flags>(
   } = {}
 ) {
   const envKey = process.env.HAPPYKIT_FLAGS_ENV_KEY;
+
+  if (!envKey) {
+    throw new Error(
+      "@happykit/remix: Missing HAPPYKIT_FLAGS_ENV_KEY environment variable"
+    );
+  }
+
   const flagEvaluationRequestBody: EvaluationRequestBody = {
     visitorKey: options.visitorKey || null,
     traits: options.traits || null,
