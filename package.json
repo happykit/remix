@@ -1,5 +1,4 @@
 {
-  "name": "sample-monorepo",
   "private": true,
   "devDependencies": {
     "turbo": "1.7.4"
