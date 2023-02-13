@@ -7,6 +7,11 @@
     "build": "tsup src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "README.md",
+    "package.json",
+    "dist"
+  ],
   "keywords": [
     "feature flags",
     "remix",
